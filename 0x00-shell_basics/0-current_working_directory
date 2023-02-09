@@ -1,5 +1,2 @@
 #!/bin/bash
-curdir=$(dirname "$0")
-cd "$curdir"
-curdir=$(pwd)
-echo "$curdir"
+echo "$(cd "$(dirname "${BASH_SOURCE[0]}")")"
