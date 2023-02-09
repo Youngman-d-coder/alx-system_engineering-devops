@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+
+
+curdir=$(cd "$(dirname "$0")" && pwd)
+
+echo "$curdir"
+
