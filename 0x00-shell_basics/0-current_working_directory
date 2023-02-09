@@ -1,2 +1,2 @@
 #!/bin/bash
-curdir=$(cd "$(dirname "$0")" && pwd)	echo "$curdir"
+echo $(pwd)
